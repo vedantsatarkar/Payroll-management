@@ -1,0 +1,98 @@
+#heading {
+  text-align: center;
+  font-family: Playfair Display, sans-serif;
+  font-weight: bold;
+}
+
+#div1 {
+  display: block;
+  max-width: 50%;
+}
+
+.addform {
+  width: 100%;
+  background-color: #d6e6f2;
+}
+input[type="select"],
+input[type="number"],
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+.textarea {
+  background-color: #f7fbfc;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*input[type="submit"] {
+  width: 100%;
+  background-color: #769fcd;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}*/
+input[type="submit"]:hover {
+  color: white;
+  background-color: #5f91c9;
+}
+
+#newemppan,
+#newempesi,
+#newemppf,
+#newempphone,
+#newempjoindate,
+#newempdob,
+#newempgross,
+#newempbas,
+#newempcert,
+#newempmed {
+  background-color: #f7fbfc;
+  width: 25%;
+  /* padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;*/
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+}
+#eddel {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  background-color: #d6e6f2;
+}
+#eddel th,
+#eddel td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-family: sans-serif;
+}
+#eddel tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#eddel tr:hover {
+  background-color: #ddd;
+}
+#eddel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5f91c9;
+  color: white;
+}
+

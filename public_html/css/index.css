@@ -1,0 +1,55 @@
+body {
+  background-image: url("images/login-img.jpg") ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.form-div {
+  max-width: 300px;
+  position: relative;
+  left: 600px;
+  right: 600px;
+  top: 200px;
+  bottom: 200px;
+/*  border: 3px solid #f1f1f1;*/
+  z-index: 9;
+}
+
+ .login-form  {
+  padding: 10px;
+  background-color: white;
+}
+
+.login-form input[type=email], .login-form input[type=password] {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.login-form input[type=email]:focus, .login-form input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.login-form .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.login-form .cancel {
+  background-color: red;
+}
+
+.login-form .btn:hover {
+  opacity: 1;
+}
